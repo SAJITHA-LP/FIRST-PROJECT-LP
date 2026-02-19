@@ -23,15 +23,25 @@ public class U1001
 		Select select=new Select(day);
 		select.selectByIndex(1);
 		
-		
+	
 		
 		
 
+	}
+	private void t02() 
+	{
+		System.out.println("t02 executed");
+	}
+	private void t03() 
+	{
+		System.out.println("t03 executed");
 	}
 	public static void main(String[] args) throws InterruptedException 
 	{
 		U1001 day10=new U1001();
 		day10.T01();
+		day10.t02();
+		day10.t03();
 		
 	}
 }

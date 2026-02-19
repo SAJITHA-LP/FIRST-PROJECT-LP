@@ -53,8 +53,8 @@ public class U0101
 	public static void main(String[] args) 
 	{
 		U0101 day1=new U0101();
-		day1.T0101();
-		day1.T0102();
+//		day1.T0101();
+//		day1.T0102();
 		day1.T0103();
 		
 	}
